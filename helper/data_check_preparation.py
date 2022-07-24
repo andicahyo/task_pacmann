@@ -17,6 +17,6 @@ def read_data(PATH):
     data : pd.DataFrame
         Data for modeling
     '''
-    data = pd.read_csv(PATH, endcoding='cp1252')
+    data = pd.read_csv(PATH, encoding='cp1252')
     
     return data
